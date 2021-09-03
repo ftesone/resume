@@ -6,9 +6,11 @@ import ListItemIconText from './ListItemIconText'
 import EmailIcon from '@material-ui/icons/Email'
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid'
 import MarkerIcon from '@material-ui/icons/Room'
+import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import Avatar from '@material-ui/core/Avatar'
 import { makeStyles } from '@material-ui/core/styles'
+import avatar from '../../imgs/perfil.jpg'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -38,12 +40,13 @@ export default props => {
                     <ListItemIconText icon={<EmailIcon color="primary" />} text="fenatesone@gmail.com" />
                     <ListItemIconText icon={<PhoneAndroidIcon color="primary" />} text="+549 221 677 5392" />
                     <ListItemIconText icon={<MarkerIcon color="primary" />} text="La Plata, Argentina" />
+                    <ListItemIconText icon={<GitHubIcon color="primary" />} text="/ftesone" />
                     <ListItemIconText icon={<LinkedInIcon color="primary" />} text="/in/fernando-tesone" />
                 </List>
             </Grid>
         </Grid>
         <Grid container item md={4} justifyContent="flex-end" alignItems="center">
-            <Avatar alt="Fernando Tesone" src="perfil.jpg" className={classes.large} />
+            <Avatar alt="Fernando Tesone" src={avatar} className={classes.large} />
         </Grid>
     </Grid>
 }
