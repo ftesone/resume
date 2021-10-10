@@ -60,6 +60,12 @@ export default [
         years: 3,
     },
     {
+        id: 12,
+        icon: <FontAwesomeIcon icon={faReact} size="2x" color="#61dafb" />,
+        name: 'React + Redux',
+        years: 1,
+    },
+    {
         id: 8,
         icon: <JsIcon />,
         name: 'jQuery',
@@ -82,12 +88,6 @@ export default [
         icon: <FontAwesomeIcon icon={faVuejs} size="2x" color="#41b883" />,
         name: 'Vue.js',
         years: 1,
-    },
-    {
-        id: 12,
-        icon: <FontAwesomeIcon icon={faReact} size="2x" color="#61dafb" />,
-        name: 'React',
-        years: null,
     },
     {
         id: 13,
