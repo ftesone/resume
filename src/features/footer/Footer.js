@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography'
 export default props =>
     <Grid container item xs={12}>
         <Card style={{textAlign: 'center', width: '100%', margin: '32px 0'}}>
-            <CardContent>
+            <CardContent style={{padding: '20px'}}>
                 <Typography variant="caption">
                     Built with React + Material UI + Font Awesome
                 </Typography>

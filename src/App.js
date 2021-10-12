@@ -8,6 +8,7 @@ import Footer from './features/Footer/Footer'
 import WorkExperience from './features/WorkExperience/WorkExperience'
 import Education from './features/Education/Education'
 import Technologies from './features/Technologies/Technologies'
+import AboutMe from './features/AboutMe/AboutMe'
 import { MuiThemeProvider, createTheme } from '@material-ui/core'
 
 const theme = createTheme({
@@ -25,9 +26,12 @@ function App() {
                 <Container maxWidth="md">
                     <Header />
                     <Divider style={{marginBottom: '15px'}} />
+                    <Grid item spacing={12}>
+                        <AboutMe />
+                    </Grid>
                     <Grid container spacing={4}>
                         <Grid item md={7}>
-                            <WorkExperience style={{marginBottom: '15px'}} />
+                            <WorkExperience />
                             <Education />
                         </Grid>
                         <Grid item md={5}>

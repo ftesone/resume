@@ -4,11 +4,11 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 
 export default props =>
-    <article {...props}>
+    <article style={{marginBottom: '20px'}} {...props}>
         <Typography variant="h2" style={{fontSize: '3rem'}}>
             {props.title}
         </Typography>
-        <Card>
+        <Card style={{marginBottom: '20px'}}>
             <CardContent>
                 {props.body}
             </CardContent>
