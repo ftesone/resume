@@ -9,9 +9,12 @@ import {
     faReact,
     faRust,
     faSymfony,
-    faVuejs
+    faVuejs,
 } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import {
+    faDatabase,
+    faSync,
+} from '@fortawesome/free-solid-svg-icons'
 
 const PhpIcon = () => <FontAwesomeIcon icon={faPhp} size="2x" color="#8892bf" />
 const JsIcon = () => <FontAwesomeIcon icon={faJs} size="2x" color="#efd81d" />
@@ -57,6 +60,12 @@ export default [
         id: 7,
         icon: <FontAwesomeIcon icon={faDocker} size="2x" color="#2496ed" />,
         name: 'Docker',
+        years: 3,
+    },
+    {
+        id: 14,
+        icon: <FontAwesomeIcon icon={faSync} size="2x" />,
+        name: 'CI/CD',
         years: 3,
     },
     {
