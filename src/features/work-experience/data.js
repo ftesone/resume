@@ -6,7 +6,7 @@ export default [
     {
         id: 1,
         workplace: 'Facultad de Informática – Universidad Nacional de La Plata',
-        rol: 'Backend and RESTful APIs developer/DevOps',
+        rol: 'Backend and RESTful APIs Developer/DevOps',
         icon: <FontAwesomeIcon icon={faCode} size="2x" color="#1dd1a7" />,
         start: {month: 7, year: 2015},
         end: null,
