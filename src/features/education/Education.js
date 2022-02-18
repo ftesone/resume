@@ -13,7 +13,7 @@ const Degrees = () =>
         {degrees.map(degree =>
             <ListItem key={degree.id}>
                 <ListItemIcon><FontAwesomeIcon icon={faGraduationCap} size="2x" color="#1dd1a7" /></ListItemIcon>
-                <ListItemText primary={degree.degreeEs} secondary={degree.degreeEn} />
+                <ListItemText primary={degree.title} />
                 <ListItemText secondary={`${degree.start} – ${degree.end ? degree.end : 'Present'}`} style={{marginLeft: '10px', textAlign: 'right'}} />
             </ListItem>
         )}

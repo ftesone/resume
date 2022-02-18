@@ -14,7 +14,7 @@ export default [
     {
         id: 2,
         workplace: 'Facultad de Informática – Universidad Nacional de La Plata',
-        rol: 'Fundamentos de Organización de Datos/Diseño de Bases de Datos – Teaching Assistant',
+        rol: 'Data Organization Fundamentals/Database Design – Teaching Assistant',
         icon: <FontAwesomeIcon icon={faChalkboardTeacher} size="2x" color="#1dd1a7" />,
         start: {month: 10, year: 2015},
         end: null,
@@ -22,7 +22,7 @@ export default [
     {
         id: 3,
         workplace: 'Facultad de Informática – Universidad Nacional de La Plata',
-        rol: 'Seminario de Lenguajes (PHP) – Teaching Assistant',
+        rol: 'Language Seminar (PHP option) – Teaching Assistant',
         icon: <FontAwesomeIcon icon={faChalkboardTeacher} size="2x" color="#1dd1a7" />,
         start: {month: 4, year: 2016},
         end: null,
@@ -30,7 +30,7 @@ export default [
     {
         id: 4,
         workplace: 'Buzz Consulting',
-        rol: 'Backend and RESTful APIs developer/DevOps',
+        rol: 'Backend and RESTful APIs Developer/DevOps',
         icon: <FontAwesomeIcon icon={faCode} size="2x" color="#1dd1a7" />,
         start: {month: 1, year: 2018},
         end: {month: 8, year: 2021},
