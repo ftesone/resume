@@ -1,10 +1,17 @@
 import React from "react";
-import Section from "../Section/Section";
-import paragraphs from "./data";
+import Section from "../section/Section";
+import { GithubRepoLink, aboutMe } from "./data";
 
 const AboutMe = props => (
     <section style={{textAlign: 'justify'}}>
-        {paragraphs.map(paragraph => <p>{typeof paragraph === 'string' ? paragraph : paragraph.map(e => e)}</p>)}
+        {aboutMe
+            .split(/\r?\n/)
+            .map(paragraph => <p>{paragraph
+                .split('{GithubRepoLink}')
+                .flatMap(s => [s, <GithubRepoLink />])
+                .slice(0, -1)
+            }</p>)
+        }
     </section>
 );
 
