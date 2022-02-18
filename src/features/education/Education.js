@@ -1,5 +1,5 @@
 import React from 'react'
-import Section from '../Section/Section'
+import Section from '../section/Section'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
