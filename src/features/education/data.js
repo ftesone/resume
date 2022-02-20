@@ -4,7 +4,7 @@ export default [
         title: 'Master\'s Degree in Software Engineering',
         school: 'Facultad de Informática – Universidad Nacional de La Plata',
         start: 2021,
-        end: 'Present',
+        end: null,
     },
     {
         id: 2,

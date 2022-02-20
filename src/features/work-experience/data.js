@@ -22,7 +22,7 @@ export default [
     {
         id: 3,
         workplace: 'Facultad de Informática – Universidad Nacional de La Plata',
-        rol: 'Language Seminar (PHP option) – Teaching Assistant',
+        rol: 'Languages Seminar (PHP option) – Teaching Assistant',
         icon: <FontAwesomeIcon icon={faChalkboardTeacher} size="2x" color="#1dd1a7" />,
         start: {month: 4, year: 2016},
         end: null,

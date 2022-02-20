@@ -1,20 +1,37 @@
 import React from "react";
 import Section from "../section/Section";
 import { GithubRepoLink, aboutMe } from "./data";
+import PropTypes from "prop-types";
 
-const AboutMe = props => (
+
+
+const AboutMeContent = ({}, {t}) => (
     <section style={{textAlign: 'justify'}}>
         {aboutMe
             .split(/\r?\n/)
-            .map(paragraph => <p>{paragraph
-                .split('{GithubRepoLink}')
-                .flatMap(s => [s, <GithubRepoLink />])
-                .slice(0, -1)
-            }</p>)
+            .map(paragraph => (
+                <p>
+                    {t(paragraph.trim(), {GithubRepoLink: <GithubRepoLink/>})}
+                </p>
+            ))
         }
     </section>
 );
 
-export default (props) => (
-    <Section title="About Me" body={<AboutMe />} {...props} />
+AboutMeContent.contextTypes = {
+    t: PropTypes.func,
+};
+
+
+
+export const AboutMe = (props, {t}) => (
+    <Section title={t('About me')} body={<AboutMeContent />} {...props} />
 );
+
+AboutMe.contextTypes = {
+    t: PropTypes.func,
+};
+
+
+
+export default AboutMe;
