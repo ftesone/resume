@@ -33,7 +33,7 @@ export default [
     },
     {
         id: 16,
-        icon: <FontAwesomeIcon icon={faMicrosoft} size="2x" />,
+        icon: <FontAwesomeIcon icon={faMicrosoft} size="2x" color="#0067b8" />,
         name: '#C .NET',
         years: 3,
     },
@@ -57,7 +57,7 @@ export default [
     },
     {
         id: 3,
-        icon: <FontAwesomeIcon icon={faGitAlt} size="2x" />,
+        icon: <FontAwesomeIcon icon={faGitAlt} size="2x" color="#f44d27" />,
         name: 'Git',
         years: 9,
     },
@@ -75,13 +75,13 @@ export default [
     },
     {
         id: 6,
-        icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
-        name: 'MySQL',
+        icon: <FontAwesomeIcon icon={faDatabase} size="2x" color="#3e6e93" />,
+        name: 'MySQL/Postgres',
         years: 10,
     },
     {
         id: 19,
-        icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
+        icon: <FontAwesomeIcon icon={faDatabase} size="2x" color="#00684a" />,
         name: 'MongoDB',
         years: 1,
     },
@@ -93,7 +93,7 @@ export default [
     },
     {
         id: 14,
-        icon: <FontAwesomeIcon icon={faSync} size="2x" />,
+        icon: <FontAwesomeIcon icon={faSync} size="2x" color="black" />,
         name: 'CI/CD',
         years: 4,
     },
@@ -111,7 +111,7 @@ export default [
     },
     {
         id: 18,
-        icon: <FontAwesomeIcon icon={faProjectDiagram} size="2x" />,
+        icon: <FontAwesomeIcon icon={faProjectDiagram} size="2x" color="#f6009b" />,
         name: 'GraphQL',
         years: 1,
     },
@@ -135,7 +135,7 @@ export default [
     },
     {
         id: 20,
-        icon: <FontAwesomeIcon icon={faTimes} size="2x" />,
+        icon: <FontAwesomeIcon icon={faTimes} size="2x" color="#5e5086" />,
         name: 'Haskell',
         years: 1,
     },
