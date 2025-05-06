@@ -5,5 +5,6 @@ export default {
         'Data Organization Fundamentals/Database Design – Teaching Assistant': 'Fundamentos de Organización de Datos/Diseño de Bases de Datos - Ayudante Diplomado',
         'Languages Seminar (PHP option) – Teaching Assistant': 'Seminario de Lenguajes (opción PHP) - Ayudante Diplomado',
         'CMS and Product Developer': 'Desarrollador de CMS y productos',
+        'Fullstack Developer': 'Desarrollador Fullstack',
     },
 };
