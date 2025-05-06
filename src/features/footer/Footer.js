@@ -9,8 +9,11 @@ const Footer = (props, {t}) =>
     <Grid container item xs={12}>
         <Card style={{textAlign: 'center', width: '100%', margin: '32px 0'}}>
             <CardContent style={{padding: '20px'}}>
-                <Typography variant="caption">
+                <Typography variant="caption" className="not-print">
                     { t('Built with React+Redux + Material UI + Font Awesome + ❤️') }
+                </Typography>
+                <Typography variant="caption" className="print-only">
+                    { t('Printed from https://ftesone.github.io/resume') }
                 </Typography>
             </CardContent>
         </Card>

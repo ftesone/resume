@@ -10,9 +10,9 @@ import PropTypes from 'prop-types';
 
 
 const TechnologiesList = ({}, {t}) =>
-    <List>
+    <List style={{display: 'flex', flexWrap: 'wrap'}}>
         {technologies.map(tech =>
-            <ListItem key={tech.id}>
+            <ListItem key={tech.id} style={{maxWidth: '48%', minWidth: '180px'}}>
                 <ListItemIcon>{tech.icon}</ListItemIcon>
                 <ListItemText primary={tech.name} secondary={tech.years ? t(['1 year', '{n} years', 'n'], {n: tech.years}) : t('Learning')} />
             </ListItem>

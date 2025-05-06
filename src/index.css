@@ -20,3 +20,22 @@ a {
 p {
     margin: 16px;
 }
+
+.print-only {
+    display: none !important;
+}
+
+@media print {
+    * {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .print-only {
+        display: block !important;
+    }
+
+    .not-print {
+        display: none !important;
+    }
+}

@@ -23,18 +23,18 @@ function App() {
     return (
         <MuiThemeProvider theme={theme}>
             <div className="App">
-                <Container maxWidth="md">
+                <Container maxWidth="lg">
                     <Header />
                     <Divider style={{marginBottom: '15px'}} />
                     <Grid item spacing={12}>
                         <AboutMe />
                     </Grid>
                     <Grid container spacing={4}>
-                        <Grid item md={7}>
+                        <Grid item lg={7}>
                             <WorkExperience />
                             <Education />
                         </Grid>
-                        <Grid item md={5}>
+                        <Grid item lg={5}>
                             <Technologies />
                         </Grid>
                     </Grid>
