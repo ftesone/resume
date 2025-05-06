@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChalkboardTeacher, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faChalkboardTeacher, faCode, faDesktop } from '@fortawesome/free-solid-svg-icons'
 
 export default [
     {
@@ -10,6 +10,14 @@ export default [
         icon: <FontAwesomeIcon icon={faCode} size="2x" color="#1dd1a7" />,
         start: {month: 3, year: 2022},
         end: null,
+    },
+    {
+        id: 7,
+        workplace: 'Facultad de Informática – Universidad Nacional de La Plata',
+        rol: 'Research Intern',
+        icon: <FontAwesomeIcon icon={faDesktop} size="2x" color="#1dd1a7" />,
+        start: {month: 6, year: 2019},
+        end: {month: 7, year: 2024},
     },
     {
         id: 5,
