@@ -6,5 +6,6 @@ export default {
         'Languages Seminar (PHP option) – Teaching Assistant': 'Seminario de Lenguajes (opción PHP) - Ayudante Diplomado',
         'CMS and Product Developer': 'Desarrollador de CMS y productos',
         'Fullstack Developer': 'Desarrollador Fullstack',
+        'Research Intern': 'Becario de Investigación',
     },
 };
