@@ -51,19 +51,14 @@ export default props => {
                     </ToggleButtonGroup>
                 </Grid>
             </Grid>
-            <Grid container item sm={8}>
-                <Grid container item xs={12}>
-                    <List>
-                        <ListItemIconText icon={<MarkerIcon color="primary" />} text="Argentina" />
-                        <ListItemIconText icon={<EmailIcon color="primary" />} text="fenatesone@gmail.com" href="mailto:fenatesone@gmail.com" />
-                        <ListItemIconText icon={<SchoolIcon color="primary" />} text="Google Scholar" href="https://scholar.google.com/citations?user=g7mBFZEAAAAJ" />
-                        <ListItemIconText icon={<LinkedInIcon color="primary" />} text="/in/fernando-tesone" href="https://linkedin.com/in/fernando-tesone" />
-                        <ListItemIconText icon={<GitHubIcon color="primary" />} text="/ftesone" href="https://github.com/ftesone" />
-                    </List>
-                </Grid>
-            </Grid>
-            <Grid container item sm={4} justifyContent="flex-end" alignItems="center">
-                <Avatar alt="Fernando Tesone" src={avatar} className={classes.large} />
+            <Grid container item xs={12}>
+                <List className="info-links">
+                    <ListItemIconText icon={<MarkerIcon color="primary" />} text="Argentina" />
+                    <ListItemIconText icon={<EmailIcon color="primary" />} text="fenatesone@gmail.com" href="mailto:fenatesone@gmail.com" />
+                    <ListItemIconText icon={<SchoolIcon color="primary" />} text="Google Scholar" href="https://scholar.google.com/citations?user=g7mBFZEAAAAJ" />
+                    <ListItemIconText icon={<LinkedInIcon color="primary" />} text="/in/fernando-tesone" href="https://linkedin.com/in/fernando-tesone" />
+                    <ListItemIconText icon={<GitHubIcon color="primary" />} text="/ftesone" href="https://github.com/ftesone" />
+                </List>
             </Grid>
         </Grid>
     );
