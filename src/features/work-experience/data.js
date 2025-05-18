@@ -1,4 +1,3 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChalkboardTeacher, faCode, faDesktop } from '@fortawesome/free-solid-svg-icons'
 
@@ -10,6 +9,37 @@ export default [
         icon: <FontAwesomeIcon icon={faCode} size="2x" color="#1dd1a7" />,
         start: {month: 3, year: 2022},
         end: null,
+        tasks: [
+            'Backend development',
+            'Frontend development',
+            'Fullstack development',
+            'Pipelines configuration for CI/CD',
+            'Tech lead',
+            'PR Reviews',
+            'Technical challenges design',
+            'Technical interviews',
+            'Integration with third party APIs',
+            'Integration with AWS services',
+        ],
+        technologies: [
+            'Python',
+            'Flask',
+            'React Native',
+            'Elasticsearch',
+            'MongoDB',
+            'Azure',
+            'AWS',
+            'Postgres',
+            'NextJs',
+            'GraphQL',
+            'CI/CD',
+            'Git',
+            'C#',
+            'Optimizely',
+            '.NET Framework',
+            '.NET Core',
+            'SQL Server',
+        ],
     },
     {
         id: 7,
@@ -18,6 +48,19 @@ export default [
         icon: <FontAwesomeIcon icon={faDesktop} size="2x" color="#1dd1a7" />,
         start: {month: 6, year: 2019},
         end: {month: 7, year: 2024},
+        tasks: [
+            'Non-functional requirements on mobile applications',
+            'Relational and NoSQL databases',
+            'Databases for mobile applications',
+            'Quantum computing',
+        ],
+        technologies: [
+            'Android',
+            'React Native',
+            'Ionic Framework',
+            'MongoDB',
+            'MySQL',
+        ],
     },
     {
         id: 5,
@@ -26,6 +69,26 @@ export default [
         icon: <FontAwesomeIcon icon={faCode} size="2x" color="#1dd1a7" />,
         start: {month: 7, year: 2015},
         end: {month: 7, year: 2024},
+        tasks: [
+        ],
+        technologies: [
+            'Symfony Framework',
+            'API Platform',
+            'Docker',
+            'Docker Swarm',
+            'Portainer',
+            'MySQL',
+            'Doctrine ORM',
+            'Vue.js',
+            'React',
+            'Git',
+            'CI/CD',
+            'Python',
+            'Express',
+            'Nginx',
+            'CSS',
+            'Handlebars',
+        ],
     },
     {
         id: 4,
@@ -34,6 +97,11 @@ export default [
         icon: <FontAwesomeIcon icon={faChalkboardTeacher} size="2x" color="#1dd1a7" />,
         start: {month: 10, year: 2015},
         end: {month: 7, year: 2024},
+        tasks: [
+        ],
+        technologies: [
+            'SQL (ANSI)',
+        ],
     },
     {
         id: 3,
@@ -42,6 +110,16 @@ export default [
         icon: <FontAwesomeIcon icon={faChalkboardTeacher} size="2x" color="#1dd1a7" />,
         start: {month: 4, year: 2016},
         end: {month: 7, year: 2024},
+        tasks: [
+        ],
+        technologies: [
+            'PHP',
+            'Slim framework',
+            'MySQL',
+            'CSS',
+            'React',
+            'Docker',
+        ],
     },
     {
         id: 2,
@@ -50,6 +128,24 @@ export default [
         icon: <FontAwesomeIcon icon={faCode} size="2x" color="#1dd1a7" />,
         start: {month: 1, year: 2018},
         end: {month: 8, year: 2021},
+        tasks: [
+            'RESTful APIs design and implementation',
+            'Database design',
+            'k8s configuration for production environment',
+            'Implementation of frontend features',
+        ],
+        technologies: [
+            'Symfony Framework',
+            'Doctrine ORM',
+            'MySQL',
+            'Docker',
+            'Kubernetes',
+            'GCP',
+            'Angular',
+            'Ionic Framework',
+            'Git',
+            'CI/CD',
+        ],
     },
     {
         id: 1,
@@ -58,5 +154,19 @@ export default [
         icon: <FontAwesomeIcon icon={faCode} size="2x" color="#1dd1a7" />,
         start: {month: 10, year: 2011},
         end: {month: 6, year: 2015},
+        tasks: [
+            'Implementation of custom features in CMS',
+            'Database design',
+            'Integration with Facebook and Twitter APIs',
+            'Integration with payment platforms',
+            'Deployment to production environments',
+        ],
+        technologies: [
+            'PHP',
+            'MySQL',
+            'GraphQL',
+            'jQuery',
+            'CSS',
+        ],
     },
 ]
