@@ -6,7 +6,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 const Content = props =>
     <ListItem>
         <ListItemIcon>{props.icon}</ListItemIcon>
-        <ListItemText primary={props.text} />
+        <ListItemText primary={props.text} style={{ textWrap: 'nowrap' }} />
     </ListItem>
 
 export default props => props.href ? (

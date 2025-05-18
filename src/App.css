@@ -8,3 +8,58 @@ body {
     padding: 0 15px !important;
     padding-top: 3px !important;
 }
+
+.about-me {
+    text-align: justify;
+}
+
+@media print {
+    .about-me p {
+        line-height: 1.2rem;
+        font-size: 0.8rem;
+        margin: 0.5rem auto;
+    }
+}
+
+.info-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info-links > * {
+    width: auto !important;
+}
+
+.work-experience-details {
+    display: block;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.work-experience-details .tasks {
+    display: block;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.work-experience-details .techs {
+    margin: 2rem;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+
+@media print {
+    .work-experience-details .tasks {
+        margin-top: -1rem;
+    }
+
+    .work-experience-details .techs {
+        margin-top: 0;
+        margin-bottom: -1rem;
+    }
+}

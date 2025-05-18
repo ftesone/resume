@@ -20,7 +20,7 @@ export const i18n = {
         'December': 'Diciembre',
         'Google Scholar': 'Google Académico',
         'Built with React+Redux + Material UI + Font Awesome + ❤️': 'Hecho con React+Redux + Material UI + Font Awesome + ❤️',
-        'Printed from https://ftesone.github.io/resume': 'Impreso desde https://ftesone.github.io/resume',
+        'Exported from https://ftesone.github.io/resume': 'Exportado desde https://ftesone.github.io/resume',
         ...aboutMe.es,
         ...education.es,
         ...technologies.es,

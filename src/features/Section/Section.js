@@ -8,7 +8,7 @@ export default props =>
         <Typography variant="h2" style={{fontSize: '3rem'}}>
             {props.title}
         </Typography>
-        <Card style={{marginBottom: '20px'}}>
+        <Card variant="outlined" style={{marginBottom: '20px'}}>
             <CardContent>
                 {props.body}
             </CardContent>

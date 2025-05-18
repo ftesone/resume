@@ -13,7 +13,7 @@ const Footer = (props, {t}) =>
                     { t('Built with React+Redux + Material UI + Font Awesome + ❤️') }
                 </Typography>
                 <Typography variant="caption" className="print-only">
-                    { t('Printed from https://ftesone.github.io/resume') }
+                    { t('Exported from https://ftesone.github.io/resume') }
                 </Typography>
             </CardContent>
         </Card>
