@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 
 
 const AboutMeContent = ({}, {t}) => (
-    <section style={{textAlign: 'justify'}}>
+    <section className="about-me">
         {aboutMe
             .split(/\r?\n/)
             .map(paragraph => (
